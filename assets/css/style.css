@@ -1,9 +1,16 @@
 body { /* Visual */
-  background: grey;
-  background-image: url("../images/got.jpg");
+  /* background: yellow; */
+  background-image: url("../images/office.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
+  color: firebrick;
+  background-color: grey;
+  /* opacity: .1; */
+}
+
+#mark { 
+  background-color: yellow;
+  color: red;
 }
 
 #display {
