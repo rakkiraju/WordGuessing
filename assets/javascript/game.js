@@ -86,9 +86,10 @@ document.onkeyup = function(event) {
     //win
     // set the display and message box
     bGameDone = true;
-    alert("you win!!!!");
+    
     iWins++;
     $("#Wins").text(iWins);
+    alert("you win!!!!");
   }
   else if(iGuessesLeft <= 0)
   {
