@@ -112,19 +112,6 @@ window.onload = function() {
 };
 
 
-
-
-function reset() {
-
-  time = 0;
-  lap = 1;
-
-  //  TODO: Change the "display" div to "00:00."
-  $("#display").text("00:00");
-  $("#laps").empty();
-  
-}
-
 function isAlpha(str) {
   return /^[a-zA-Z]$/.test(str);
 }
