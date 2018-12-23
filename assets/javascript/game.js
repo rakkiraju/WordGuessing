@@ -155,6 +155,8 @@ function start() {
     iLosses++;
     $("#Losses").text(iLosses);
     alert("You Lose!!! Word was " + randWord);
+    bGameDone = true;
+    return;
   }
 
   bGameDone = false;
