@@ -31,6 +31,7 @@ var iCountDashes = 0;
 var randWord = "";
 var iNumDashesLeft = 0;
 var iGuessesLeft = 0;
+var bGameDone = true;
 
 
 document.onkeyup = function(event) {
@@ -71,12 +72,14 @@ document.onkeyup = function(event) {
   {
     //win
     // set the display and message box
+    bGameDone = true;
     alert("you win!!!!");
     iWins++;
     $("#Wins").text(iWins);
   }
   else if(iGuessesLeft <= 0)
   {
+    bGameDone = true;
     iLosses++;
     $("#Losses").text(iLosses);
     alert("You Lose!!! Word was " + randWord);
@@ -122,13 +125,26 @@ function replaceAt(s, n, t) {
 
 function reset()
 {
+  bGameDone = true;
   start();
   iLosses++;
   $("#Losses").text(iLosses);
   alert("You Lose!!! Word was " + randWord);
+  
 }
 
 function start() {
+
+  if(!bGameDone)
+  {
+    alert("Game not yet completed!!! Counting this as reset");
+    iLosses++;
+    $("#Losses").text(iLosses);
+    alert("You Lose!!! Word was " + randWord);
+  }
+
+  bGameDone = false;
+
   //randomly pick a word from the array and then set the #wordlist 
   //with appropriate dashes. for spaces display it as <space>
   randWord = myShowsList[Math.floor(Math.random() * Math.floor(myShowsList.length))];
