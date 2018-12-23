@@ -79,7 +79,7 @@ document.onkeyup = function(event) {
   {
     iLosses++;
     $("#Losses").text(iLosses);
-    alert("You Lose!!!");
+    alert("You Lose!!! Word was " + randWord);
   }
 
 
@@ -125,7 +125,7 @@ function reset()
   start();
   iLosses++;
   $("#Losses").text(iLosses);
-  alert("You Lose!!!");
+  alert("You Lose!!! Word was " + randWord);
 }
 
 function start() {
