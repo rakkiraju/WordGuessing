@@ -44,6 +44,11 @@ var bGameDone = true;
 
 document.onkeyup = function(event) {
             
+  if(bGameDone)
+  {
+    alert("You need to press Start button to start the game!!");
+    return;
+  }
   pressedLetter = event.key;
   //alert("Pressed this letter ->" + pressedLetter);
   pressedLetter = pressedLetter.toLowerCase();
