@@ -1,7 +1,7 @@
 var pressedLetter = "";
 var myShowsList = ["The Wire", 
                     "Game of Thrones", 
-                    "Sienfeld", 
+                    "Seinfeld", 
                     "Friends", 
                     "Everybody Loves Raymond",
                     "Cheers",
@@ -23,7 +23,15 @@ var myShowsList = ["The Wire",
                     "Homeland",
                     "Faulty Towers",
                     "Roots",
-                    "South Park"];
+                    "South Park",
+                    "The Odd Couple",
+                    "Downton Abbey",
+                    "Happy Days",
+                    "The Wonder Years",
+                    "Six Feet Under",
+                    "Deadwood",
+                    "Curb Your Enthusiasm",
+                    "Freaks and Geeks"];
 var iWins = 0;
 var iLosses = 0;
 var myDashes = "";
