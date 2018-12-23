@@ -5,13 +5,9 @@ body { /* Visual */
   background-repeat: no-repeat;
   color: firebrick;
   background-color: grey;
-  /* opacity: .1; */
 }
 
-#mark { 
-  background-color: yellow;
-  color: red;
-}
+
 
 #display {
   font-family: monospace;
