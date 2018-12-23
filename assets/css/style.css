@@ -2,6 +2,10 @@
 
 body { /* Visual */
   background: grey;
+  background-image: url("../images/got.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 #display {
@@ -13,6 +17,7 @@ body { /* Visual */
   text-align: center;
 
   /* Visual */
+  background-image: url("../images/got.jpg");
   background: black;
 }
 
@@ -33,6 +38,7 @@ text-align: center;
 
 #body {
   text-align: center;
+  
   /* background-image: http://bgrepeat.com/bg_128-174 ; */
   /* background-repeat: repeat;  */
 }
