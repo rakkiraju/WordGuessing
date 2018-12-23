@@ -15,7 +15,7 @@ body { /* Visual */
   color: green;
 
   /* Typography */
-  text-align: center;
+  text-align: left;
 
   /* Visual */
   background-image: url("../images/got.jpg");
@@ -28,23 +28,23 @@ body { /* Visual */
 
   /* Positioning */
   margin: 50px auto 0;
-  text-align: center;
+  text-align: left;
   border-width: thick;
   border-style: solid;
 }
 #wordlist {
 font-size: 50px;
-text-align: center;
+text-align: left;
 }
 
 #body {
-  text-align: center;
+  text-align: left;
   
   /* background-image: http://bgrepeat.com/bg_128-174 ; */
   /* background-repeat: repeat;  */
 }
 #buttons { /* Typography */
-  text-align: center;
+  text-align: left;
 }
 
 button {
