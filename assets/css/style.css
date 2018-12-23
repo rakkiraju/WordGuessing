@@ -1,0 +1,57 @@
+/* Students: Our work lies in the js file. */
+
+body { /* Visual */
+  background: white;
+}
+
+#display {
+  font-family: monospace;
+  font-size: 120px;
+  color: green;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: black;
+}
+
+#wrapper {
+  /* Box-model */
+  width: 1000px;
+
+  /* Positioning */
+  /* margin: 50px auto 0; */
+}
+#wordlist {
+font-size: 50px;
+text-align: left;
+}
+
+#buttons { /* Typography */
+  text-align: left;
+}
+
+button {
+  width: 100px;
+
+  /* Box-model */
+  height: 50px;
+}
+
+#laps {
+  width: 100%;
+  height: 200px;
+
+  /* Positioning */
+  margin-top: 20px;
+
+  /* Box-model */
+  overflow: auto;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: white;
+}
